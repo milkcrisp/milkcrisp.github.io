@@ -27,6 +27,7 @@
 
         <!-- Main CSS File -->
         <link href="assets/css/main.css" rel="stylesheet" />
+        <link href="assets/css/rewrite.css" rel="stylesheet" />
     </head>
 
     <body class="index-page">
@@ -285,36 +286,53 @@
 
             <!-- Portfolio Section -->
             <section id="portfolio" class="portfolio section light-background">
-                <!-- Section Title -->
-                <div class="container section-title" data-aos="fade-up">
-                    <h2>作品集</h2>
-                </div>
-                <!-- End Section Title -->
-
                 <div class="container">
+                  <h2 class="section-title"><strong>作品集</strong></h2>
                         <!-- End Portfolio Filters -->
-                        <div class="portfolio-item">
-                          <h4>食譜魔方 RecipeCube</h4>
-                          <a href="https://github.com/zaki47zz/RecipeCubeClient" target="_blank">前端 GitHub</a> | 
-                          <a href="https://github.com/zaki47zz/RecipeCube" target="_blank">後端 GitHub</a>
-                          <p>
-                            　　這是一款智慧型的食譜推薦平台，以日常食材管理為核心，幫助用戶根據現有食材找到合適的料理，實現「清冰箱」的目標。該系統使用ASP.NET Core MVC進行後端開發，負責食譜和食材數據的管理；前端採用Vue.js來創建互動性強的使用者介面。
-                          </p>
-                          <p>
-                            　　在開發過程中，我熟悉了MVC架構的實作，學會了如何進行API設計與資料的CRUD操作，並將這些資料動態地呈現在Vue組件中。此外，我也深入理解了前後端的協作方式，學會了如何利用Vue的組件化架構來有效管理和顯示資料，確保用戶操作的即時回饋。透過這個專案，我不僅提升了系統設計的能力，還體會到資料庫與前端介面整合的重要性。
-                          </p>
+                        <h3><strong>食譜魔方</strong></h3>
+                        
+                            <div class="recipe-portfolio-grid">
+                              <div class="recipe-portfolio-item">
+                                <img src="assets/img/RecipeCube01.png" alt="食譜魔方首頁" class="img-fluid">
+                                <h4>食譜魔方首頁</h4>
+                                <p>提供食材管理與動態推薦功能，讓使用者輕鬆掌控冰箱內的食材。</p>
+                              </div>
+                              <div class="recipe-portfolio-item">
+                                <img src="assets/img/RecipeCube02.png" alt="推薦食譜頁面" class="img-fluid">
+                                <h4>推薦食譜頁面</h4>
+                                <p>根據使用者選擇的食材，推薦符合條件的料理，並顯示所需食材清單。</p>
+                              </div>
+                              <div class="recipe-portfolio-item">
+                                <img src="assets/img/RecipeCube03.png" alt="食譜列表頁面" class="img-fluid">
+                                <h4>食譜列表頁面</h4>
+                                <p>瀏覽與篩選各式食譜，支援多種分類與標籤篩選。</p>
+                              </div>
+                            </div>
+                            <div class="mt-3">
+                              <p>
+                                　　這是一款智慧型的食譜推薦平台，以日常食材管理為核心，幫助用戶根據現有食材找到合適的料理，實現「清冰箱」的目標。該系統使用ASP.NET Core MVC進行後端開發，負責食譜和食材數據的管理；前端採用Vue.js來創建互動性強的使用者介面。
+                              </p>
+                              <p>
+                                　　在開發過程中，我熟悉了MVC架構的實作，學會了如何進行API設計與資料的CRUD操作，並將這些資料動態地呈現在Vue組件中。此外，我也深入理解了前後端的協作方式，學會了如何利用Vue的組件化架構來有效管理和顯示資料，確保用戶操作的即時回饋。透過這個專案，我不僅提升了系統設計的能力，還體會到資料庫與前端介面整合的重要性。
+                              </p>
+                            </div>
+                            <h3><strong>無人機虛擬實境 STEM 學習系統 Robotfly</strong></h3>
+
+                        <div class="portfolio-item d-flex align-items-start">
+                          <img src="assets/img/robotfly1.png" class="img-fluid me-3" width="300" alt="無人機虛擬實境 STEM 學習系統 Robotfly">
+                          <div class="portfolio-content">
+                            <p>
+                              "Robotfly" 是一款透過 VR 裝置遊玩的四軸無人機模擬器，採用 Unity 3D 製作，旨在提升學生對無人機操作的知識以及運算邏輯能力。
+                            </p>
+                            <p>
+                              在此專案中，我擔任組長，負責進度掌控、技術方向及組員協調。通過定期的討論與反饋，我能清晰地表達專案需求，並在遇到挑戰時快速找出解決方案。
+                            </p>
+                            <p>
+                              這段經驗不僅加強了我的團隊合作與溝通表達能力，也讓我在技術執行上更加精進，最終順利完成此專案並通過國科會大專生研究計畫補助。
+                            </p>
+                          </div>
                         </div>
-                        <div class="portfolio-item">
-                          <h4>無人機虛擬實境STEM學習系統 Robotfly</h4>
-                          <p>
-                            "Robotfly"是一款透過VR裝置遊玩的四軸無人機模擬器，採用Unity 3D製作，旨在提升學生對無人機操作的知識以及運算邏輯能力。
-                          </p>
-                          <p>在此專案中，我擔任組長，負責進度掌控、技術方向及組員協調。通過定期的討論與反饋，我能清晰地表達專案需求，並在遇到挑戰時快速找出解決方案。
-                          </p>
-                          <p>這段經驗不僅加強了我的團隊合作與溝通表達能力，也讓我在技術執行上更加精進，最終順利完成此專案並通過國科會大專生研究計畫補助。</p>
-                          <iframe src="assets/pdf/robotfly01.pdf" width="100%" height="600px"></iframe>
-                          <iframe src="assets/pdf/robotfly02.pdf" width="100%" height="600px"></iframe>
-                        </div>
+                        
                         <!-- End Portfolio Container -->
                     </div>
                 </div>
